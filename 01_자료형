@@ -11,6 +11,9 @@
 print(type(3))   int
 print(type(3.0))   float
 print(type("3"))   str
+def hello():
+  print("123")
+print(type(hello))   function
 
 
 ##소수형 포함시 소수형으로 출력##
